@@ -68,10 +68,10 @@ The architecture of the Smart Indoor Gardening (SIG) system includes several key
 
 ![System Architecture](https://drive.google.com/uc?export=view&id=1odG7L7_rnb_-WH8y7Q2nrmqbaQo_XjJY)
 
-- **System Sensors**: Sensors like temperature, humidity, CO2, and light sensors collect data from the environment and send it to the SICSystem.  
-- **SICSystem (ESP8266)**: This is the main device, powered by an ESP8266 microcontroller. It collects data from sensors and controls devices like lights, fans, or motors.  
+- **System Sensors**: Sensors like temperature, humidity, CO2, and light sensors collect data from the environment and send it to the SIGSystem.  
+- **SIGSystem (ESP8266)**: This is the main device, powered by an ESP8266 microcontroller. It collects data from sensors and controls devices like lights, fans, or motors.  
 - **System Control Devices**: Devices such as lights, fans, and motors can be controlled based on sensor data or user commands.  
-- **HiveMQ MQTT Broker**: Acts as a cloud-based messenger between the SICSystem and user interface.  
+- **HiveMQ MQTT Broker**: Acts as a cloud-based messenger between the SIGSystem and user interface.  
 - **Client Subscribers (Next.js)**: A Next.js-based web application that allows users to view real-time data and control the system.  
 - **Database (PostgreSQL on Vercel)**: Stores all collected data and actions for analysis or history tracking.
 
